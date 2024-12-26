@@ -1,0 +1,115 @@
+.services-container{
+    margin-top: 20px;
+}
+.services-heading{
+    font-size: 33px;
+    font-weight: 500;
+    color:#883DCF; 
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    overflow: hidden;
+    box-shadow: 6px 4px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 3px solid #883DCF; 
+    z-index: 2;
+    position: relative;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+  
+ 
+  .icon-circle {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+ 
+  .service-card {
+    text-align: center;
+    background-color:#ae64f4 ; 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
+    width:auto;
+    height: 228px;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+    margin-top: -35px;
+  }
+  
+ 
+  .service-card.hovered {
+    transform: translateY(-8px);
+    // box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    background-color: white; 
+    border-radius: 30px;
+  }
+  
+ 
+  .icon-container.hovered {
+    background-color: #883DCF;
+    transform: rotate(360deg); 
+    border: 3px solid white; 
+  }
+  
+  
+  .service-card.hovered .icon-circle {
+    opacity: 0;
+    transform: scale(0.9); 
+  }
+
+  .service-card.hovered .icon-container::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+    width: 100px;
+    height: 100px;
+    // background-image: url('../../../public/icon1.gif'); 
+    background-size: cover;
+    border-radius: 50%;
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+  }
+  
+ 
+  .why-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    /* margin-bottom: 10px; */
+    /* transition: color 0.3s ease; */
+    margin-top: 58px;
+  }
+  
+  .why-subtitle {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.837); 
+    line-height: 1.5;
+    transition: color 0.3s ease;
+  }
+  
+    .service-card.hovered .why-title, 
+  .service-card.hovered .why-subtitle {
+    color: #0f0606;
+    font-size: 19px;
+  }
+  
+
+  .service-card.hovered .why-title {
+    font-size: 28px; 
+  }

@@ -1,0 +1,16 @@
+<div class="our-partner">
+    <p class="our-partner-heading">
+        Our Partner
+    </p>
+
+    <div class="our-partner-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-3" *ngFor="let image of ourPartner">
+                <img  [ngStyle]="{ width: image.width, height: image.height }"  src="{{image.imageUrl}}" alt="BonBon" class="partner-imgs" >
+            </div>
+            
+        </div>
+    </div>
+</div>
+</div>

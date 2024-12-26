@@ -3,10 +3,22 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LandingComponent } from './landing/landing.component';
+import { HeaderComponent } from './header/header.component';
+import { TestimonialComponent } from './testimonial/testimonial.component';
+import { OurPartnerComponent } from './our-partner/our-partner.component';
+import { WhychooseComponent } from './whychoose/whychoose.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LandingComponent,
+    HeaderComponent,
+    TestimonialComponent,
+    OurPartnerComponent,
+    WhychooseComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
