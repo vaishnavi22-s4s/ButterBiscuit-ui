@@ -1,3 +1,6 @@
+
+@media only screen and (min-width:1200px) {
+
 .testimonial{
     margin-top: 100px;
 }
@@ -82,4 +85,191 @@
 .carousel-indicators .active {
     opacity: 1;
     background-color: #a45ee6;
+}
+
+}
+
+
+
+@media only screen and (min-width:600px) and (max-width:1200px){
+
+
+
+    .testimonial{
+        margin-top: 100px;
+    }
+    
+    
+    .testimonial-container{
+        width: 500px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Urbanist', sans-serif;
+    }
+    
+    .testimonial-heading{
+        font-family: 'Urbanist', sans-serif;
+        font-weight:800;
+        font-size:50px;
+        color: #883DCF; 
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .testimonial-img{
+        width: 150px;
+        height: 150px;
+        padding: 30px;
+    
+        border-radius: 50px;
+        margin-top: 20px;
+        object-fit: contain;
+       
+      
+    }
+    .testimonial-text1{
+        margin-top: 10px;
+        font-size: 23px;
+        color: #a45ee6;
+        font-weight: 600;
+        font-family: 'Urbanist', sans-serif;
+    }
+    .testimonial-text2{
+        color: #263a4f;
+        font-size: 19px;
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 500;
+    }
+    .testimonial-text3{
+        color: #263a4f;
+        font-size: 17px;
+        font-weight: 500;
+        font-family: 'Urbanist', sans-serif;
+    
+    }
+    
+    .carousel {
+        position: relative;
+    }
+    
+    .carousel-inner {
+        padding-bottom: 50px;
+    }
+    
+    .custom-indicators {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px; 
+    }
+    
+    .carousel-indicators button {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #883DCF;
+        border: none;
+        margin: 0 5px;
+        opacity: 0.6;
+        transition: opacity 0.3s;
+    }
+    
+    .carousel-indicators .active {
+        opacity: 1;
+        background-color: #a45ee6;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .testimonial {
+        margin-top: 50px; 
+        text-align: center;
+    }
+
+    .testimonial-container {
+        width: 90%; 
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Urbanist', sans-serif;
+        flex-direction: column; 
+    }
+
+    .testimonial-heading {
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 800;
+        font-size: 30px; 
+        color: #883DCF;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .testimonial-img {
+        width: 120px; 
+        height: 120px;
+        padding: 15px;
+        border-radius: 50%;
+        margin-top: 20px;
+        object-fit: contain;
+    }
+
+    .testimonial-text1 {
+        margin-top: 10px;
+        font-size: 18px; 
+        color: #a45ee6;
+        font-weight: 600;
+        font-family: 'Urbanist', sans-serif;
+    }
+
+    .testimonial-text2 {
+        color: #263a4f;
+        font-size: 16px; 
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 500;
+    }
+
+    .testimonial-text3 {
+        color: #263a4f;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Urbanist', sans-serif;
+    }
+
+    .carousel {
+        position: relative;
+        width: 100%; 
+    }
+
+    .carousel-inner {
+        padding-bottom: 30px; 
+    }
+
+    .custom-indicators {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px; 
+    }
+
+    .carousel-indicators button {
+        width: 10px; 
+        height: 10px;
+        border-radius: 50%;
+        background-color: #883DCF;
+        border: none;
+        margin: 0 5px;
+        opacity: 0.6;
+        transition: opacity 0.3s;
+    }
+
+    .carousel-indicators .active {
+        opacity: 1;
+        background-color: #a45ee6;
+    }
 }

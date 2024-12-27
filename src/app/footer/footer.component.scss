@@ -1,4 +1,5 @@
-.footer{
+@media only screen and (min-width:1200px) {
+    .footer{
     margin-top: 30px;
     background-color: #eee0fa;
     padding-bottom: 40px;
@@ -105,3 +106,361 @@ button.ft-in:hover {
 .ft-head:hover::after {
     transform: scaleX(1); /* Full width on hover */
 }
+}
+
+
+
+
+
+@media only screen and (min-width:600px) and (max-width:1200px){
+
+        .footer {
+            margin-top: 30px;
+            background-color: #eee0fa;
+            padding-bottom: 40px;
+            color: #666;
+            line-height: 1.5;
+            font-family: "Urbanist", sans-serif;
+        }
+    
+        .bblogo {
+            width: 110px;
+            height: 70px;
+            margin-bottom: 30px;
+        }
+    
+        .ft-logo {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+    
+        .gtinto {
+            display: flex;
+        }
+    
+        .ft-head {
+            font-size: 28px;
+            font-weight: 500;
+            color: #883DCF;
+            margin-top: 60px;
+            position: relative;
+            display: inline-block;
+        }
+    
+        .gtinto p {
+            font-size: 17px;
+        }
+    
+        .ft-input {
+            display: flex;
+            align-items: center;
+        }
+    
+        .ft-in {
+            border-radius: 8px;
+            padding: 10px 15px;
+            border: 1px solid #883DCF;
+            margin: 2px;
+        }
+    
+        input.ft-in {
+            flex-grow: 1;
+        }
+    
+        button.ft-in {
+            background-color: #883DCF;
+            color: white;
+            cursor: pointer;
+        }
+    
+        button.ft-in:hover {
+            background-color: #883DCF;
+        }
+    
+        .social-icon {
+            display: flex;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            margin-left: 10px;
+        }
+    
+        .social-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+            margin-right: 10px;
+            border-radius: 7px;
+        }
+    
+        .social-icon img:hover {
+            transform: scale(1.1);
+        }
+    
+        .ft-head::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 3px;
+            background: #883DCF;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.3s ease-in-out;
+        }
+    
+        .ft-head:hover::after {
+            transform: scaleX(1);
+        }
+    }
+    
+
+
+
+    // @media only screen and (max-width: 600px) {
+
+    //     .footer {
+    //         margin-top: 30px;
+    //         background-color: #eee0fa;
+    //         padding-bottom: 40px;
+    //         color: #666;
+    //         line-height: 1.5;
+    //         font-family: "Urbanist", sans-serif;
+    //         text-align: center; /* Center the text in the footer */
+    //     }
+    
+    //     .bblogo {
+    //         width: 90px;
+    //         height: 63px;
+    //         margin-bottom: 15px;
+    //         margin-left: auto;
+    //         margin-right: auto; /* Center the logo horizontally */
+    //     }
+    
+    //     .ft-logo {
+    //         width: 21px;
+    //         height: 21px;
+    //     }
+    
+    //     .gtinto {
+    //         display: flex;
+    //         flex-direction: column; /* Stack the content vertically on smaller screens */
+    //         align-items: center; /* Center the content */
+    //         text-align: center; /* Center the text inside the container */
+    //     }
+    
+    //     .arr {
+    //         text-align: center; /* Center the text inside the 'arr' container */
+    //     }
+    
+    //     .ft-head {
+    //         font-size: 21px;
+    //         font-weight: 500;
+    //         color: #883DCF;
+    //         margin-top: 16px;
+    //         position: relative;
+    //         display: inline-block;
+    //         margin-left: auto;
+    //         margin-right: auto; /* Center the heading */
+    //         text-align: center; /* Center the text */
+    //     }
+    
+    //     .gtinto p {
+    //         font-size: 14px;
+    //         margin-left: 0; /* Remove excessive margin for text */
+    //         margin-top: 5px;
+    //         text-align: center; /* Center the text */
+    //     }
+    
+    //     .ft-input {
+    //         display: flex;
+    //         align-items: center;
+    //         justify-content: center; /* Center the input fields */
+    //     }
+    
+    //     .ft-in {
+    //         border-radius: 2px;
+    //         padding: 9px 6px;
+    //         border: 1px solid #883DCF;
+    //         margin: 5px;
+    //     }
+    
+    //     input.ft-in {
+    //         flex-grow: 1;
+    //     }
+    
+    //     button.ft-in {
+    //         background-color: #883DCF;
+    //         color: white;
+    //         cursor: pointer;
+    //     }
+    
+    //     button.ft-in:hover {
+    //         background-color: #883DCF;
+    //     }
+    
+    //     .social-icon {
+    //         display: flex;
+    //         justify-content: center; /* Center the social icons */
+    //         margin-top: 10px;
+    //     }
+    
+    //     .social-icon img {
+    //         width: 9%; /* Adjust the icon size for mobile */
+    //         object-fit: contain;
+    //         margin: 0 10px; /* Space between icons */
+    //     }
+    
+    //     .social-icon img:hover {
+    //         transform: scale(1.1);
+    //     }
+    
+    //     .ft-head::after {
+    //         content: '';
+    //         position: absolute;
+    //         left: 0;
+    //         bottom: 0;
+    //         width: 100%;
+    //         height: 3px;
+    //         background: #883DCF;
+    //         transform: scaleX(0);
+    //         transform-origin: left;
+    //         transition: transform 0.3s ease-in-out;
+    //     }
+    
+    //     .ft-head:hover::after {
+    //         transform: scaleX(1);
+    //     }
+    // }
+    // }
+
+
+
+
+
+
+
+    @media only screen and (max-width: 600px) {
+        .footer {
+            margin-top: 30px;
+            background-color: #eee0fa;
+            padding-bottom: 40px;
+            color: #666;
+            line-height: 1.5;
+            font-family: "Urbanist", sans-serif;
+            padding-left: 20px;
+            padding-right: 20px; /* Ensure some padding on both sides */
+            text-align: left; /* Align all text to the left */
+        }
+    
+        .bblogo {
+            width: 90px; /* Adjusted width for small screens */
+            height: 60px; /* Adjusted height for small screens */
+            margin-bottom: 15px;
+            display: block;
+            margin-left: 0; /* Remove centering */
+        }
+    
+        .ft-logo {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+    
+        .gtinto {
+            display: flex;
+            flex-direction: column; /* Stack the items vertically */
+            align-items: flex-start; /* Align items to the left */
+        }
+    
+        .ft-head {
+            font-size: 22px; /* Adjust font size for smaller screens */
+            font-weight: 500;
+            color: #883DCF;
+            margin-top: 30px;
+            position: relative;
+            display: inline-block;
+            text-align: left; /* Align heading text to the left */
+            width: 100%; /* Take up full width */
+        }
+    
+        .gtinto p {
+            font-size: 16px; /* Adjusted font size for text */
+            margin-left: 0; /* Remove unnecessary margin */
+            text-align: left; /* Align text to the left */
+            width: 100%; /* Ensure text takes up full width */
+        }
+    
+        .ft-input {
+            display: flex;
+            flex-direction: column; /* Stack the inputs vertically */
+            align-items: flex-start; /* Align input fields to the left */
+            justify-content: center; /* Keep them centered vertically */
+            margin-top: 10px;
+        }
+    
+        .ft-in {
+            border-radius: 8px;
+            padding: 10px 15px;
+            border: 1px solid #883DCF;
+            margin: 5px 0;
+            width: 100%; /* Ensure the input fields take full width */
+            max-width: 300px; /* Limit max width */
+        }
+    
+        input.ft-in {
+            flex-grow: 1;
+        }
+    
+        button.ft-in {
+            background-color: #883DCF;
+            color: white;
+            cursor: pointer;
+            width: 100%; /* Full-width button */
+            max-width: 300px; /* Limit max width for better display */
+        }
+    
+        button.ft-in:hover {
+            background-color: #883DCF;
+        }
+    
+        .social-icon {
+            display: flex;
+            justify-content: flex-start; /* Align social icons to the left */
+            margin-top: 20px;
+        }
+    
+        .social-icon img {
+            width: 30px; /* Adjusted size for mobile */
+            height: 30px;
+            object-fit: contain;
+            margin: 0 10px; /* Space between icons */
+            border-radius: 7px;
+            transition: transform 0.3s ease;
+        }
+    
+        .social-icon img:hover {
+            transform: scale(1.1);
+        }
+    
+        .ft-head::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 40%;
+            height: 3px;
+            background: #883DCF;
+            transform: scaleX(0);
+            transition: transform 0.3s;
+        }
+        
+        .ft-head:hover::after {
+            transform: scaleX(1);
+        }
+        
+    }
+    

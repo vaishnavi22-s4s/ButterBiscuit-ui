@@ -3,10 +3,11 @@
   <div class="container">
     <div class="row">
       <!-- Card 1 -->
-      <div class="col-4">
+      <div class="col-sm-4 col-12">
         <div class="services-container">
           <div class="icon-container" [ngClass]="{ hovered: isHovered1 }">
-            <img src="icon1.gif" alt="Icon" class="icon-circle" />
+            <img 
+              [src]="isHovered6 ? 'icon1.gif' : 'icon2.gif'"alt="Icon"class="icon-circle"/>
           </div>
           <div
             class="service-card"
@@ -21,10 +22,11 @@
       </div>
 
       <!-- Card 2 -->
-      <div class="col-4">
+      <div class="col-sm-4 col-12">
         <div class="services-container">
           <div class="icon-container" [ngClass]="{ hovered: isHovered2 }">
-            <img src="icon2.gif" alt="Icon" class="icon-circle" />
+            <img 
+            [src]="isHovered6 ? 'icon2.gif' : 'icon3.gif'"alt="Icon"class="icon-circle"/>
           </div>
           <div
             class="service-card"
@@ -41,10 +43,11 @@
       </div>
 
       <!-- Card 3 -->
-      <div class="col-4">
+      <div class="col-sm-4 col-12">
         <div class="services-container">
           <div class="icon-container" [ngClass]="{ hovered: isHovered3 }">
-            <img src="icon3.gif" alt="Icon" class="icon-circle" />
+            <img 
+            [src]="isHovered6 ? 'icon4.gif' : 'icon5.gif'"alt="Icon"class="icon-circle"/>
           </div>
           <div
             class="service-card"
@@ -60,10 +63,11 @@
       </div>
 
       <!-- Card 4 -->
-      <div class="col-4">
+      <div class="col-sm-4 col-12">
         <div class="services-container">
           <div class="icon-container" [ngClass]="{ hovered: isHovered4 }">
-            <img src="icon4.gif" alt="Icon" class="icon-circle" />
+            <img 
+              [src]="isHovered6 ? 'icon5.gif' : 'icon6.gif'"alt="Icon"class="icon-circle"/>
           </div>
           <div
             class="service-card"
@@ -78,10 +82,11 @@
       </div>
 
       <!-- Card 5 -->
-      <div class="col-4">
+      <div class="col-sm-4 col-12">
         <div class="services-container">
           <div class="icon-container" [ngClass]="{ hovered: isHovered5 }">
-            <img src="icon5.gif" alt="Icon" class="icon-circle" />
+            <img 
+            [src]="isHovered6 ? 'icon6.gif' : 'icon1.gif'"alt="Icon"class="icon-circle"/>
           </div>
           <div
             class="service-card"
@@ -97,22 +102,20 @@
       </div>
 
       <!-- Card 6 -->
-      <div class="col-4">
+      <div class="col-sm-4 col-12">
         <div class="services-container">
           <div class="icon-container" [ngClass]="{ hovered: isHovered6 }">
-            <img src="icon6.gif" alt="Icon" class="icon-circle" />
+           <img 
+              [src]="isHovered6 ? 'icon1.gif' : 'icon6.gif'"alt="Icon"class="icon-circle"/>
           </div>
-          <div
-            class="service-card"
-            (mouseenter)="isHovered6 = true"
-            (mouseleave)="isHovered6 = false"
-            [ngClass]="{ hovered: isHovered6 }"
+          <div class="service-card"(mouseenter)="isHovered6 = true"(mouseleave)="isHovered6 = false" [ngClass]="{ hovered: isHovered6 }"
           >
             <p class="why-title">Real-Time Analytics</p>
             <p class="why-subtitle">Track orders, payments, and customer preferences for data-driven insights</p>
           </div>
         </div>
       </div>
+      
     </div>
   </div>
 </div>
