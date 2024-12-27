@@ -1,5 +1,7 @@
 .footer{
     margin-top: 30px;
+    background-color: #efe6f7;
+    padding-bottom: 40px;
 }
 .bblogo{
     width: 110px;
@@ -7,10 +9,11 @@
     margin-bottom: 20px;
 }
 .ft-logo{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     margin-right: 10px;
     margin-bottom: 14px;
+
 }
 .gtinto{
     display: flex;
@@ -29,3 +32,32 @@
 .gtinto p{
     font-size: 17px;
 }
+
+
+.ft-input {
+    display: flex;
+    align-items: center;
+}
+
+.ft-in {
+    border-radius: 8px; 
+    padding: 10px 15px;  
+    border: 1px solid #883DCF;  
+    margin: 2px; 
+}
+
+input.ft-in {
+    flex-grow: 1;  
+}
+
+button.ft-in {
+    background-color: #883DCF; 
+    color: white;  
+    cursor: pointer; 
+}
+
+button.ft-in:hover {
+    background-color: #883DCF;  /* Darker green on hover */
+}
+
+
