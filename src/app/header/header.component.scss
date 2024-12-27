@@ -2,7 +2,13 @@
 
 .header {
   width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1001;
 }
+
 
 .top-bar {
   background-color: #883DCF;
@@ -58,7 +64,7 @@
   align-items: center;
   padding: 20px 20px;
   background-color: #fff;
-  margin-left: 86px;
+  margin-left: 276px;
 }
 
 .main-header .logo img {
