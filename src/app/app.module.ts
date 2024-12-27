@@ -10,6 +10,7 @@ import { OurPartnerComponent } from './our-partner/our-partner.component';
 import { WhychooseComponent } from './whychoose/whychoose.component';
 import { FooterComponent } from './footer/footer.component';
 import { HowItsWorkComponent } from './how-its-work/how-its-work.component';
+import { SuitableForComponent } from './suitable-for/suitable-for.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HowItsWorkComponent } from './how-its-work/how-its-work.component';
     OurPartnerComponent,
     WhychooseComponent,
     FooterComponent,
-    HowItsWorkComponent
+    HowItsWorkComponent,
+    SuitableForComponent
   ],
   imports: [
     BrowserModule,

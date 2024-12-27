@@ -1,0 +1,93 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f4ff;
+            margin: 0;
+            height: 100vh;
+        }
+
+        .container {
+            position: relative;
+            width: 600px;
+        }
+
+        .center {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 40px auto;
+            border-radius: 50%;
+            background: linear-gradient(90deg, #00d2ff, #ff00cc);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .center h1 {
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .box:nth-child(1) .icon {
+            background-color: #00d2ff;
+        }
+
+        .box:nth-child(2) .icon {
+            background-color: #ff00cc;
+        }
+
+        .box:nth-child(3) .icon {
+            background-color: #ff8a00;
+        }
+
+        .box:nth-child(4) .icon {
+            background-color: #0078ff;
+        }
+
+        .box h3 {
+            font-size: 18px;
+            color: #333;
+            text-align: center;
+        }
+
+        .box p {
+            font-size: 14px;
+            color: #555;
+            margin: 0;
+        }
