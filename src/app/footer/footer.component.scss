@@ -1,16 +1,22 @@
 .footer{
     margin-top: 30px;
+    background-color: #eee0fa;
+    padding-bottom: 40px;
 }
 .bblogo{
     width: 110px;
     height: 70px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .ft-logo{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     margin-right: 10px;
     margin-bottom: 14px;
+
+}
+.ft-bblogo{
+    
 }
 .gtinto{
     display: flex;
@@ -19,13 +25,82 @@
 }
 .ft-head{
     font-size: 28px;
-
     font-weight: 500;
     color:#883DCF; 
- 
     margin-top: 60px;
  
 }
 .gtinto p{
     font-size: 17px;
+}
+
+
+.ft-input {
+    display: flex;
+    align-items: center;
+}
+
+.ft-in {
+    border-radius: 8px; 
+    padding: 10px 15px;  
+    border: 1px solid #883DCF;  
+    margin: 2px; 
+}
+
+input.ft-in {
+    flex-grow: 1;  
+}
+
+button.ft-in {
+    background-color: #883DCF; 
+    color: white;  
+    cursor: pointer; 
+}
+
+button.ft-in:hover {
+    background-color: #883DCF;  /* Darker green on hover */
+}
+.social-icon {
+    
+    display: flex;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-left: 10px;
+    
+  }
+  .social-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+    border-radius: 7px;
+  }
+  .social-icon img:hover  {
+    transform: scale(1.1);
+  }
+
+
+.ft-head {
+    position: relative;
+    display: inline-block;
+   
+}
+
+.ft-head::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0; /* Place underline directly below the text */
+    width: 100%;
+    height: 3px; /* Adjust underline thickness */
+    background: #883DCF; /* Underline color */
+    transform: scaleX(0); /* Initial state - hidden */
+    transform-origin: left; /* Animation starts from the left */
+    transition: transform 0.3s ease-in-out; /* Smooth animation */
+}
+
+.ft-head:hover::after {
+    transform: scaleX(1); /* Full width on hover */
 }
