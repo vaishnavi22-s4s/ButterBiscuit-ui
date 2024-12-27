@@ -1,18 +1,19 @@
-
 .testimonial-container{
     width: 500px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Urbanist', sans-serif;
 }
 
 .testimonial-heading{
-    font-size: 33px;
-    font-weight: 500;
-    color:#883DCF; 
+    font-family: 'Urbanist', sans-serif;
+    font-weight:800;
+    font-size:50px;
+    color: #883DCF; 
     text-align: center;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 .testimonial-img{
@@ -26,16 +27,19 @@
     font-size: 18px;
     color: #a45ee6;
     font-weight: 600;
+    font-family: 'Urbanist', sans-serif;
 }
 .testimonial-text2{
     color: #263a4f;
     font-size: 15px;
+    font-family: 'Urbanist', sans-serif;
     font-weight: 500;
 }
 .testimonial-text3{
     color: #263a4f;
     font-size: 15px;
     font-weight: 500;
+    font-family: 'Urbanist', sans-serif;
 
 }
 
@@ -69,4 +73,3 @@
     opacity: 1;
     background-color: #a45ee6;
 }
-

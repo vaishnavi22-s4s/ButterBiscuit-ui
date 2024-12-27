@@ -9,6 +9,7 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
 import { OurPartnerComponent } from './our-partner/our-partner.component';
 import { WhychooseComponent } from './whychoose/whychoose.component';
 import { FooterComponent } from './footer/footer.component';
+import { HowItsWorkComponent } from './how-its-work/how-its-work.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     TestimonialComponent,
     OurPartnerComponent,
     WhychooseComponent,
-    FooterComponent
+    FooterComponent,
+    HowItsWorkComponent
   ],
   imports: [
     BrowserModule,
