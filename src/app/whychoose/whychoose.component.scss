@@ -1,17 +1,20 @@
 
 @media only screen and (min-width:1200px) {
+  .services-container{
+    margin-top:30px
+  }
 
 .icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
-  background-color: white;
+  width: 80px;
+  height: 80px;
+  background-color: #883DCF;
   border-radius: 50%;
   margin: 0 auto 15px;
   overflow: hidden;
-  border: 3px solid #883DCF; 
+  border: 3px solid white; 
   z-index: 2;
   position: relative;
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
@@ -30,23 +33,24 @@
 
 
 .icon-container.hovered {
-  background-color: #883DCF;
+  background-color: white;
   transform: rotate(360deg); 
-  border: 3px solid white; 
+  border: 3px solid #883DCF; 
   margin-left: 38px;
 }
 
 
 .service-card {
   text-align: center;
-  background-color: #ae64f4; 
+  background-color: white; 
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
   width: auto;
   height: 228px;
   margin: 0 auto;
+  border: 1px solid #ccabef;
   z-index: 1;
   position: relative;
   margin-top: -35px;
@@ -55,31 +59,36 @@
 
 .service-card.hovered {
   transform: translateY(-8px);
-  background-color: white; 
+  background-color: #883DCF; 
   border-radius: 30px;
 }
 
 
-.service-card.hovered .why-title, 
+.service-card.hovered .why-title{
+  color: white;
+  font-size: 24px;
+  font-family: 'Urbanist', sans-serif;
+
+}
 .service-card.hovered .why-subtitle {
-  color: #0f0606;
+  color: white;
   font-size: 19px;
   font-family: 'Urbanist', sans-serif;
 }
 
 
 .why-title {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
-  color: white;
-  margin-top: 58px;
+  color: rgba(0, 0, 0, 0.618);
+  margin-top: 34px;
   font-family: 'Urbanist', sans-serif;
 }
 
 
 .why-subtitle {
   font-size: 19px;
-  color: rgba(255, 255, 255, 0.837); 
+  color: rgba(0, 0, 0, 0.523); 
   line-height: 1.5;
   transition: color 0.3s ease;
   font-family: 'Urbanist', sans-serif;
@@ -140,17 +149,24 @@
 
 }
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .services-container{
+    margin-top:30px
+  }
+  
+  
+  
+  
   .icon-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
-    background-color: white;
+    width: 80px;
+    height: 80px;
+    background-color: #883DCF;
     border-radius: 50%;
     margin: 0 auto 15px;
     overflow: hidden;
-    border: 3px solid #883DCF; 
+    border: 3px solid white; 
     z-index: 2;
     position: relative;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
@@ -169,22 +185,23 @@
   
   /* Hovered state for icon container */
   .icon-container.hovered {
-    background-color: #883DCF;
+    background-color: white;
     transform: rotate(360deg); 
-    border: 3px solid white; 
+    border: 3px solid #883DCF; 
     margin-left: 38px;
   }
   
   /* Service card styles */
   .service-card {
     text-align: center;
-    background-color: #ae64f4; 
+    background-color: white; 
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccabef;
+    box-shadow: 4px 4px 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
     width: auto;
-    height: 228px;
+    height: 218px;
     margin: 0 auto;
     z-index: 1;
     position: relative;
@@ -194,32 +211,35 @@
   /* Hover effect for service card */
   .service-card.hovered {
     transform: translateY(-8px);
-    background-color: white; 
+    background-color:#883DCF; 
     border-radius: 30px;
   }
   
   /* Hover effect for the title and subtitle */
-  .service-card.hovered .why-title, 
+  .service-card.hovered .why-title{
+    color: white;
+    font-size: 24px;
+    font-family: 'Urbanist', sans-serif;
+  }
   .service-card.hovered .why-subtitle {
-    color: #0f0606;
-    font-size: 19px;
+    color: white;
+    font-size: 17px;
     font-family: 'Urbanist', sans-serif;
   }
   
   /* Service title styling */
   .why-title {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
-    color: white;
-    margin-top: 58px;
+    color:rgba(0, 0, 0, 0.399);
+    margin-top: 18px;
     font-family: 'Urbanist', sans-serif;
   }
   
   /* Service subtitle styling */
   .why-subtitle {
-    font-size: 19px;
-    color: rgba(255, 255, 255, 0.837); 
-    line-height: 1.5;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.519); 
     transition: color 0.3s ease;
     font-family: 'Urbanist', sans-serif;
   }
@@ -230,8 +250,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     background-color: white;
     border-radius: 50%;
     margin: 0 auto 15px;
@@ -245,7 +265,7 @@
     margin-bottom: 0px;
   }
   
-  /* Hover effect for the icon circle when card is hovered */
+
   .icon-container.hovered {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
     transform: translateY(-10px); 
