@@ -7,7 +7,7 @@
         <div class="services-container">
           <div class="icon-container" [ngClass]="{ hovered: isHovered1 }">
             <img 
-              [src]="isHovered6 ? 'icon1.gif' : 'icon2.gif'"alt="Icon"class="icon-circle"/>
+              [src]="isHovered1 ? '111.svg' : '112.svg'" alt="Icon" class="icon-circle"/>
           </div>
           <div
             class="service-card"
@@ -16,7 +16,7 @@
             [ngClass]="{ hovered: isHovered1 }"
           >
             <p class="why-title">Butter Biscuits</p>
-            <p class="why-subtitle">Enhance guest satisfaction with easy QR code access to menus.</p>
+            <p class="why-subtitle">Enhance guest satisfaction with easy QR code access to our menus.</p>
           </div>
         </div>
       </div>
@@ -26,7 +26,7 @@
         <div class="services-container">
           <div class="icon-container" [ngClass]="{ hovered: isHovered2 }">
             <img 
-            [src]="isHovered6 ? 'icon2.gif' : 'icon3.gif'"alt="Icon"class="icon-circle"/>
+              [src]="isHovered2 ? 'i21.svg' : 'i22.svg'" alt="Icon" class="icon-circle"/>
           </div>
           <div
             class="service-card"
@@ -35,9 +35,7 @@
             [ngClass]="{ hovered: isHovered2 }"
           >
             <p class="why-title">Branded Menus</p>
-            <p class="why-subtitle">Enhance guest satisfaction with seamless QR code access to your bilingual, interactive digital menu
-              
-            </p>
+            <p class="why-subtitle">Enhance guest satisfaction with seamless QR code access to your bilingual, interactive digital menu.</p>
           </div>
         </div>
       </div>
@@ -47,7 +45,7 @@
         <div class="services-container">
           <div class="icon-container" [ngClass]="{ hovered: isHovered3 }">
             <img 
-            [src]="isHovered6 ? 'icon4.gif' : 'icon5.gif'"alt="Icon"class="icon-circle"/>
+              [src]="isHovered3 ? '666.svg' : 'i32.svg'" alt="Icon" class="icon-circle"/>
           </div>
           <div
             class="service-card"
@@ -56,8 +54,7 @@
             [ngClass]="{ hovered: isHovered3 }"
           >
             <p class="why-title">No Printing Hassles</p>
-            <p class="why-subtitle">Reduce the hassle of updating and printing physical menus
-            </p>
+            <p class="why-subtitle">Reduce the hassle of updating and printing physical menus.</p>
           </div>
         </div>
       </div>
@@ -67,7 +64,7 @@
         <div class="services-container">
           <div class="icon-container" [ngClass]="{ hovered: isHovered4 }">
             <img 
-              [src]="isHovered6 ? 'icon5.gif' : 'icon6.gif'"alt="Icon"class="icon-circle"/>
+              [src]="isHovered4 ? '4th1.svg' : '4th2.svg'" alt="Icon" class="icon-circle"/>
           </div>
           <div
             class="service-card"
@@ -76,7 +73,7 @@
             [ngClass]="{ hovered: isHovered4 }"
           >
             <p class="why-title">Touch-Free Hygiene</p>
-            <p class="why-subtitle">Provide a touch-free menu option, promoting better hygiene in your restaurant</p>
+            <p class="why-subtitle">Provide a touch-free menu option, promoting better hygiene in your restaurant.</p>
           </div>
         </div>
       </div>
@@ -86,7 +83,7 @@
         <div class="services-container">
           <div class="icon-container" [ngClass]="{ hovered: isHovered5 }">
             <img 
-            [src]="isHovered6 ? 'icon6.gif' : 'icon1.gif'"alt="Icon"class="icon-circle"/>
+              [src]="isHovered5 ? 'work3.svg' : 'work2.svg'" alt="Icon" class="icon-circle"/>
           </div>
           <div
             class="service-card"
@@ -94,28 +91,50 @@
             (mouseleave)="isHovered5 = false"
             [ngClass]="{ hovered: isHovered5 }"
           >
-            <p class="why-title">
-              Customizable Menus</p>
-            <p class="why-subtitle">Update your menu items in real time to highlight specials or seasonal offerings</p>
+            <p class="why-title">Customizable Menus</p>
+            <p class="why-subtitle">Update your menu items in real time to highlight specials or seasonal offerings.</p>
           </div>
         </div>
       </div>
 
       <!-- Card 6 -->
+      <!-- <div class="col-sm-4 col-12">
+        <div class="services-container">
+          <div class="icon-container" [ngClass]="{ hovered: isHovered6 }">
+            <img 
+              [src]="isHovered6 ? 'i1.svg' : 'i2.svg'" alt="Icon" class="icon-circle"/>
+          </div>
+          <div class="service-card"
+            (mouseenter)="isHovered6 = true"
+            (mouseleave)="isHovered6 = false"
+            [ngClass]="{ hovered: isHovered6 }"
+          >
+            <p class="why-title">Real-Time Analytics</p>
+            <p class="why-subtitle">Track orders, payments, and customer preferences for data-driven insights.</p>
+          </div>
+        </div>
+      </div> -->
+
+
+
       <div class="col-sm-4 col-12">
         <div class="services-container">
           <div class="icon-container" [ngClass]="{ hovered: isHovered6 }">
-           <img 
-              [src]="isHovered6 ? 'icon1.gif' : 'icon6.gif'"alt="Icon"class="icon-circle"/>
+            <img 
+              [src]="isHovered6 ? 'work1.svg' : 'i52.svg'" alt="Icon" class="icon-circle"/>
           </div>
-          <div class="service-card"(mouseenter)="isHovered6 = true"(mouseleave)="isHovered6 = false" [ngClass]="{ hovered: isHovered6 }"
+          <div
+            class="service-card"
+            (mouseenter)="isHovered6 = true"
+            (mouseleave)="isHovered6 = false"
+            [ngClass]="{ hovered: isHovered6 }"
           >
             <p class="why-title">Real-Time Analytics</p>
-            <p class="why-subtitle">Track orders, payments, and customer preferences for data-driven insights</p>
+            <p class="why-subtitle">Track orders, payments, and customer preferences for data-driven insights.</p>
           </div>
         </div>
       </div>
-      
+
     </div>
   </div>
 </div>
