@@ -67,7 +67,7 @@
   align-items: center;
   padding: 20px 20px;
   background-color: #fff;
-  margin-left: 276px;
+  
 }
 
 .main-header .logo img {
@@ -192,7 +192,7 @@
     align-items: center;
     padding: 20px 20px;
     background-color: #fff;
-    margin-left: 86px;
+   
   }
   
   .main-header .logo img {
@@ -209,14 +209,14 @@
   }
   
   .main-header .nav ul li {
-    margin: 0 15px;
+    margin: 0 9px;
   }
   
   .main-header .nav ul li a {
     text-decoration: none;
     color: #883DCF;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
     font-family: 'Urbanist', sans-serif;
   
@@ -242,6 +242,9 @@
   .top-bar {
     display: none; 
   }
+  .nav{
+    margin-top: 22px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -259,11 +262,14 @@
   }
 
   .main-header .burger-menu {
-    display: block;
     font-size: 24px;
     cursor: pointer;
     color: #883DCF;
-    margin-left: auto; 
+    margin-left: auto;
+    align-items: end;
+    justify-content: end;
+    display: flex
+;
   }
 
   .main-header .nav {
@@ -311,4 +317,5 @@
     font-size: 16px;
     text-decoration: none;
   }
+
 }
