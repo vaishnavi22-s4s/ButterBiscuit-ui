@@ -242,6 +242,7 @@
   .offcanvas-menu {
     display: none;
   }
+
   .bb-header{
     display: flex;
     justify-content: space-between;
@@ -249,7 +250,12 @@
     padding: 20px 20px;
     background-color: #fff;
   }
-}
+// =======
+//   .top-bar {
+//     display: none; 
+
+//   }
+// }
 
 @media only screen and (max-width: 600px) {
   .top-bar {
@@ -318,4 +324,5 @@
     font-size: 16px;
     text-decoration: none;
   }
+}
 }
