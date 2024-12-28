@@ -343,12 +343,12 @@
   .service-card {
     text-align: center;
     background-color: #ae64f4; 
-    padding: 20px;
+    padding: 6px;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
     width: auto;
-    height: 228px;
+
     margin: 0 auto;
     z-index: 1;
     position: relative;
@@ -371,15 +371,15 @@
   }
 
   .why-title {
-    font-size: 28px;
+    font-size: 22px;
     font-weight: bold;
     color: white;
-    margin-top: 58px;
+    margin-top: 18px;
     font-family: 'Urbanist', sans-serif;
   }
 
   .why-subtitle {
-    font-size: 19px;
+    font-size: 16px;
     color: rgba(255, 255, 255, 0.837); 
     line-height: 1.5;
     transition: color 0.3s ease;
@@ -406,6 +406,8 @@
     margin-bottom: 0px;
   }
 
+
+  
   .icon-container.hovered {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
     transform: translateY(-10px); 
@@ -416,7 +418,7 @@
   }
 
   .services-heading {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 500;
     color: #883DCF; 
     text-align: center;

@@ -126,6 +126,8 @@
     display: flex;
   }
 
+
+
   .header {
     width: 100%;
       position: fixed;
@@ -233,7 +235,10 @@
   .main-header .header-icons a i {
     margin-right: 5px;
   }
-  
+  .burger-menu,
+  .offcanvas-menu {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {

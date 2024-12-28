@@ -1,3 +1,6 @@
+@media only screen and (min-width:1200px){
+
+
 .landing{
     margin-top: 150px;
 }
@@ -51,4 +54,129 @@
     padding: 10px 25px;
     border-radius: 23px;
     margin-top: 20px;
+}
+}
+
+@media only screen and (max-width:600px) and (min-width:1199px) {
+    .landing{
+        margin-top: 150px;
+    }
+    .carousel{
+        margin-top: 140px;
+    }
+    .landing-text1{
+       
+        font-size: 25px;
+        color: #883DCF;
+        margin-bottom: 15px;
+        font-weight: 500;
+        font-family: 'Urbanist', sans-serif;
+    }
+    .landing-text2{
+        font-size: 50px;
+        font-weight: 700;
+        color: #263a4f;
+        line-height: 72px;
+        font-family: 'Urbanist', sans-serif;
+    }
+    .landing-text2 span{
+        font-size: 50px;
+        font-weight: 700;
+        color: #883DCF;
+        line-height: 72px;
+        font-family: 'Urbanist', sans-serif;
+    
+    }
+    .landing-text3{
+        font-size: 28px;
+        line-height: 30px;
+        color: #263a4f;
+        font-weight: 600;
+        font-family: 'Urbanist', sans-serif;
+    }
+    .landing-text4{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #263a4f;
+        font-family: 'Urbanist', sans-serif;
+    }
+    .landing-button a{
+        text-decoration: none;
+        display: inline-block;
+        background-color: #883DCF;
+        font-size: 18px;
+        color: white;
+        font-weight: 400;
+        padding: 10px 25px;
+        border-radius: 23px;
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (max-width:599px) {
+    .landing{
+        margin: 40px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .landing-text1{
+       
+        font-size: 20px;
+        color: #883DCF;
+        margin-bottom: 15px;
+        font-weight: 500;
+        font-family: 'Urbanist', sans-serif;
+        padding: 0px;
+    }
+    
+    .landing-text2{
+        font-size: 33px;
+        font-weight: 700;
+        color: #263a4f;
+        line-height: 44px;
+        font-family: 'Urbanist', sans-serif;
+    }
+    .landing-text2 span{
+        font-size: 38px;
+        font-weight: 700;
+        color: #883DCF;
+        line-height: 50px;
+        font-family: 'Urbanist', sans-serif;
+        padding: 0px;
+    
+    }
+    .landing-text3{
+        font-size: 18px;
+        line-height: 30px;
+        color: #263a4f;
+        font-weight: 600;
+        font-family: 'Urbanist', sans-serif;
+    }
+    .landing-text4{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+        color: #263a4f;
+        font-family: 'Urbanist', sans-serif;
+        padding: 0px;
+    }
+    .landing-button a{
+        text-decoration: none;
+        display: inline-block;
+        background-color: #883DCF;
+        font-size: 18px;
+        color: white;
+        font-weight: 400;
+        padding: 10px 25px;
+        border-radius: 23px;
+        margin-top: 20px;
+    }
+    .landing-img{
+        display: none;
+    }
 }
