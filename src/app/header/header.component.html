@@ -51,43 +51,53 @@
 
 
 
+
+
     <div class="main-header">
       <div class="container">
         <div class="row">
-          <div class="col-12">
-            <div class="bb-header">
+          <div class="col-6">
             <div class="logo">
               <img src="bb 1.jpeg" alt="Logo">
             </div>
-            <nav class="nav">
-              <ul>
-                <li><a href="#landing">Home</a></li>
-                <li><a href="#why-choose">Why Us</a></li>
-                <li><a href="#how-its-work">How It Work</a></li>
-                <li><a href="#testimonial">Testimonials</a></li>
-                <li><a href="#our-partner">Our Partner</a></li>
-              </ul>
-            </nav>
-            <div class="burger-menu" (click)="toggleMenu()">
-              <i class="fas fa-bars"></i>
-            </div>
           </div>
+     <div class="col-6">
+            
+      <nav class="nav">
+        <ul>
+          <li><a href="#landing">Home</a></li>
+          <li><a href="#why-choose">Why Us</a></li>
+          <li><a href="#how-its-work">How It Work</a></li>
+          <li><a href="#testimonial">Testimonials</a></li>
+          <li><a href="#our-partner">Our Partner</a></li>
+        </ul>
+      </nav>
+      <div class="burger-menu" (click)="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+
+
+    </div>
+      <div class="col-6">
+        <div class="offcanvas-menu" [ngClass]="{ 'active': isMenuOpen }">
+          <div class="close-btn" (click)="toggleMenu()">&times;</div>
+          <ul>
+            <li><a href="#landing">Home</a></li>
+            <li><a href="#why-choose">Why Us</a></li>
+            <li><a href="#how-its-work">How It Work</a></li>
+            <li><a href="#testimonial">Testimonials</a></li>
+            <li><a href="#our-partner">Our Partner</a></li>
+          </ul>
+        </div>
+    
+
           </div>
         </div>
       </div>
-      
+    
+    
     </div>
-  
-    <!-- Off-canvas menu -->
-    <div class="offcanvas-menu" [ngClass]="{ 'active': isMenuOpen }">
-      <div class="close-btn" (click)="toggleMenu()">&times;</div>
-      <ul>
-        <li><a href="#landing">Home</a></li>
-        <li><a href="#why-choose">Why Us</a></li>
-        <li><a href="#how-its-work">How It Work</a></li>
-        <li><a href="#testimonial">Testimonials</a></li>
-        <li><a href="#our-partner">Our Partner</a></li>
-      </ul>
-    </div>
+
+   
   </header>
   
