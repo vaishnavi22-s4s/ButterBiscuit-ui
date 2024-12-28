@@ -44,16 +44,17 @@ export class OurPartnerComponent implements OnInit{
   // ]
 
   ourPartner = [
-    { imageUrl: 'partner-img1.jpeg', width: '100px', height: '100px' },
-    { imageUrl: 'partner-img2.jpeg', width: '100px', height: '100px' },
-    { imageUrl: 'partner-img3.jpeg', width: '100px', height: '100px' },
-    { imageUrl: 'partner-img4.jpeg', width: '100px', height: '100px' },
-    { imageUrl: 'partner-img5.jpeg', width: '100px', height: '100px' }
+    { imageUrl: 'partner-img1.jpeg'  },
+    { imageUrl: 'partner-img2.jpeg' },
+    { imageUrl: 'partner-img3.jpeg' },
+    { imageUrl: 'partner-img4.jpeg' },
+    { imageUrl: 'partner-img5.jpeg' },
+    { imageUrl: 'partner-img6.jpeg' }
   ];
 
   visibleImages:any;
   currentIndex = 0;
-  imagesPerSlide = 3;
+  imagesPerSlide = 1;
 
   ngOnInit(): void {
     this.updateVisibleImages();

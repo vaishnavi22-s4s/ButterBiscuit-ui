@@ -29,6 +29,9 @@
   
 // }
 
+@media only screen and (min-width:1200px){
+
+
 
 .our-partner-heading {
     font-family: 'Urbanist', sans-serif;
@@ -62,6 +65,8 @@
   .partner-imgs {
     object-fit: contain;
     margin: auto;
+    width: 200px;
+    height: 200px;
   }
   
   .arrow {
@@ -76,12 +81,111 @@
     color: #5b2598;
   }
   
+}
 
 
 
+@media only screen and (min-width:600px) and (max-width:1199px)
+{
+    .our-partner-heading {
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 800;
+        font-size: 50px;
+        color: #883DCF; 
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 50px;
+      }
+      
+      .our-partner-container {
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+      }
+      
+      .slider {
+        display: flex;
+        overflow: hidden;
+        width: 700px; /* Adjust width based on your requirement */
+      }
+      
+      .slide {
+        flex: 1 0 100%;
+        text-align: center;
+        transition: transform 0.5s ease-in-out;
+      }
+      
+      .partner-imgs {
+        object-fit: contain;
+        margin: auto;
+        width: 170px;
+        height: 170px;
+      }
+      
+      .arrow {
+        font-size: 65px;
+        cursor: pointer;
+        color: #883DCF;
+        user-select: none;
+        padding: 10px;
+      }
+      
+      .arrow:hover {
+        color: #5b2598;
+      }
+}
 
-
-
+@media only screen and (max-width:599px)
+{
+    .our-partner-heading {
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 800;
+        font-size: 30px;
+        color: #883DCF; 
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 50px;
+      }
+      
+      .our-partner-container {
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+      }
+      
+      .slider {
+        display: flex;
+        overflow: hidden;
+        width: 700px; /* Adjust width based on your requirement */
+      }
+      
+      .slide {
+        flex: 1 0 100%;
+        text-align: center;
+        transition: transform 0.5s ease-in-out;
+      }
+      
+      .partner-imgs {
+        object-fit: contain;
+        margin: auto;
+        width: 120px;
+        height: 120px;
+      }
+      
+      .arrow {
+        font-size: 65px;
+        cursor: pointer;
+        color: #883DCF;
+        user-select: none;
+        padding: 10px;
+      }
+      
+      .arrow:hover {
+        color: #5b2598;
+      }
+}
 
 
 
