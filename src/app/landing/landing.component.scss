@@ -57,45 +57,50 @@
 }
 }
 
-@media only screen and (max-width:600px) and (min-width:1199px) {
+@media only screen and (min-width:600px) and (max-width:1199px) {
+    .landing-img img{
+        width: 160%;
+        height: 100%;
+        object-fit: contain;
+    }
     .landing{
         margin-top: 150px;
     }
     .carousel{
-        margin-top: 140px;
+        margin-top: 100px;
     }
     .landing-text1{
        
-        font-size: 25px;
+        font-size: 22px;
         color: #883DCF;
         margin-bottom: 15px;
         font-weight: 500;
         font-family: 'Urbanist', sans-serif;
     }
     .landing-text2{
-        font-size: 50px;
+        font-size: 37px;
         font-weight: 700;
         color: #263a4f;
-        line-height: 72px;
+        line-height: 44px;
         font-family: 'Urbanist', sans-serif;
     }
     .landing-text2 span{
-        font-size: 50px;
+        font-size: 37px;
         font-weight: 700;
         color: #883DCF;
-        line-height: 72px;
+        line-height: 44px;
         font-family: 'Urbanist', sans-serif;
     
     }
     .landing-text3{
-        font-size: 28px;
+        font-size: 20px;
         line-height: 30px;
         color: #263a4f;
         font-weight: 600;
         font-family: 'Urbanist', sans-serif;
     }
     .landing-text4{
-        font-size: 20px;
+        font-size: 17px;
         font-weight: 400;
         line-height: 30px;
         color: #263a4f;
