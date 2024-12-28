@@ -114,7 +114,17 @@
 
 
 @media only screen and (min-width:600px) and (max-width:1200px){
+  .burger-menu {
+    display: none; /* Hide burger icon */
+  }
 
+  .offcanvas-menu {
+    display: none; /* Hide off-canvas menu */
+  }
+
+  .main-header .nav ul {
+    display: flex;
+  }
 
 
 
@@ -230,6 +240,7 @@
     display: none;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .top-bar {
     display: none; 
