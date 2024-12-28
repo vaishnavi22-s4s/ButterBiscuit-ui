@@ -351,17 +351,17 @@ button.ft-in:hover {
             color: #666;
             line-height: 1.5;
             font-family: "Urbanist", sans-serif;
-            padding-left: 20px;
-            padding-right: 20px; /* Ensure some padding on both sides */
-            text-align: left; /* Align all text to the left */
+            padding-left: 40px;
+            padding-right: 30px; 
+            text-align: left; 
+            padding-top: 30px;
+
         }
-    
+  
         .bblogo {
-            width: 90px; /* Adjusted width for small screens */
-            height: 60px; /* Adjusted height for small screens */
-            margin-bottom: 15px;
-            display: block;
-            margin-left: 0; /* Remove centering */
+            width: 110px;
+            height: 70px;
+            margin-bottom: 30px;
         }
     
         .ft-logo {
@@ -372,43 +372,32 @@ button.ft-in:hover {
     
         .gtinto {
             display: flex;
-            flex-direction: column; /* Stack the items vertically */
-            align-items: flex-start; /* Align items to the left */
         }
     
         .ft-head {
-            font-size: 22px; /* Adjust font size for smaller screens */
+            font-size: 23px;
             font-weight: 500;
             color: #883DCF;
-            margin-top: 30px;
+            margin-top: 10px;
             position: relative;
             display: inline-block;
-            text-align: left; /* Align heading text to the left */
-            width: 100%; /* Take up full width */
         }
     
         .gtinto p {
-            font-size: 16px; /* Adjusted font size for text */
-            margin-left: 0; /* Remove unnecessary margin */
-            text-align: left; /* Align text to the left */
-            width: 100%; /* Ensure text takes up full width */
+            font-size: 17px;
         }
     
         .ft-input {
             display: flex;
-            flex-direction: column; /* Stack the inputs vertically */
-            align-items: flex-start; /* Align input fields to the left */
-            justify-content: center; /* Keep them centered vertically */
-            margin-top: 10px;
+            align-items: center;
         }
     
         .ft-in {
             border-radius: 8px;
-            padding: 10px 15px;
-            border: 1px solid #883DCF;
-            margin: 5px 0;
-            width: 100%; /* Ensure the input fields take full width */
-            max-width: 300px; /* Limit max width */
+        padding: 10px 9px;
+        border: 1px solid #883DCF;
+        margin: 2px;
+        font-size: 13px;
         }
     
         input.ft-in {
@@ -419,8 +408,6 @@ button.ft-in:hover {
             background-color: #883DCF;
             color: white;
             cursor: pointer;
-            width: 100%; /* Full-width button */
-            max-width: 300px; /* Limit max width for better display */
         }
     
         button.ft-in:hover {
@@ -429,17 +416,19 @@ button.ft-in:hover {
     
         .social-icon {
             display: flex;
-            justify-content: flex-start; /* Align social icons to the left */
-            margin-top: 20px;
+            width: 35px;
+            height: 35px;
+            text-align: center;
+            margin-left: 10px;
         }
     
         .social-icon img {
-            width: 30px; /* Adjusted size for mobile */
-            height: 30px;
+            width: 100%;
+            height: 100%;
             object-fit: contain;
-            margin: 0 10px; /* Space between icons */
-            border-radius: 7px;
             transition: transform 0.3s ease;
+            margin-right: 10px;
+            border-radius: 7px;
         }
     
         .social-icon img:hover {
@@ -451,13 +440,14 @@ button.ft-in:hover {
             position: absolute;
             left: 0;
             bottom: 0;
-            width: 40%;
+            width: 100%;
             height: 3px;
             background: #883DCF;
             transform: scaleX(0);
-            transition: transform 0.3s;
+            transform-origin: left;
+            transition: transform 0.3s ease-in-out;
         }
-        
+    
         .ft-head:hover::after {
             transform: scaleX(1);
         }
