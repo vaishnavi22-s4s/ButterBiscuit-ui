@@ -17,12 +17,14 @@
     width: 25px;
     height: 25px;
     margin-right: 10px;
+
   
 
 }
 
 .gtinto{
     display: flex;
+    text-decoration: none;
    
 }
 .ft-head{
@@ -31,6 +33,15 @@
     color:#883DCF; 
     margin-top: 60px;
  
+}
+.nums{
+    text-decoration: none;
+    color:#666; 
+
+}
+.mail-footer{
+    text-decoration: none;
+    color:#666; 
 }
 .gtinto p{
     font-size: 17px;
@@ -100,7 +111,10 @@ button.ft-in:hover {
     display: inline-block;
    
 }
-
+.mail-footer{
+    text-decoration: none;
+    color:#666; 
+}
 .ft-head::after {
     content: '';
     position: absolute;
@@ -132,6 +146,13 @@ button.ft-in:hover {
             color: #666;
             line-height: 1.5;
             font-family: "Urbanist", sans-serif;
+        }
+
+
+        .nums{
+            text-decoration: none;
+            color:#666; 
+        
         }
     
         .bblogo {
@@ -263,7 +284,16 @@ button.ft-in:hover {
             padding-top: 30px;
 
         }
-  
+        .nums{
+            text-decoration: none;
+            color:#666; 
+        
+        }
+       .mail-footer{
+            text-decoration: none;
+            color:#666; 
+        }
+
         .bblogo {
             width: 110px;
             height: 70px;
