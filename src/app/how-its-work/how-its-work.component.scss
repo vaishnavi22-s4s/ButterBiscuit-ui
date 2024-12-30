@@ -77,7 +77,7 @@
     font-family: 'Urbanist', sans-serif;
   }
 }
-@media only screen and (min-width:600px) and (max-width:1200px){
+@media only screen and (min-width:768px) and (max-width:1200px){
 
   .steps-section{
     margin-top: 100px;
@@ -156,88 +156,170 @@
     }
 
 }
-
+@media only screen and (min-width:599px) and (max-width:767px){
+  .steps-section {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; /* Centering the content horizontally */
+    align-items: center; /* Centering the content vertically if needed */
+    flex-direction: column;
+  }
+  
+  .how-title {
+    text-align: center;
+    margin-bottom: 38px;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    color: #883DCF;
+    margin-top: 40px;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    gap: 20px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Allow items to wrap to next line if needed */
+  }
+  
+  .step-card {
+    background-color: #883DCF;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 219px;
+    height: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Urbanist', sans-serif;
+  }
+  
+  .step-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .step-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: -21px;
+    display: block; /* Ensures the image is centered */
+    margin-left: auto; /* Center the image horizontally */
+    margin-right: auto; /* Center the image horizontally */
+  }
+  
+  .how-num {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center; /* Ensure the number is centered */
+  }
+  
+  .sub-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center; /* Ensure subtitle is centered */
+  }
+  
+  .dec {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center; /* Ensure description is centered */
+  }
+}  
 @media only screen and (max-width: 600px) {
 
-
-  .steps-section{
+  .steps-section {
     margin-top: 55px;
+    display: flex;
+    justify-content: center; /* Centering the content horizontally */
+    align-items: center; /* Centering the content vertically if needed */
+    flex-direction: column; /* Aligning child elements in a column */
   }
-    
   
-    .how-title {
-      text-align: center;
-      margin-bottom: 28px;
-      font-family: "Urbanist", sans-serif;
-      font-weight: 800;
-      font-size: 28px;
-      color: #883DCF;
-    }
-   
-    .steps-container {
-      
-      justify-content: center;
-      gap: 20px;
-      padding: 0 20px;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
+  .how-title {
+    text-align: center;
+    margin-bottom: 28px;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    color: #883DCF;
+  }
   
+  .steps-container {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    gap: 20px;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Allow the steps to wrap to the next line if space is limited */
+  }
   
-      .step-card {
-        background-color: #883DCF;
-        border-radius: 10px;
-        padding: 20px;
-        text-align: center;
-        width: 246px;
-        height: auto;
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        margin-bottom: 20px;
-        font-family: "Urbanist", sans-serif;
-        margin-left: 41px;
-        }
-    
-    
-    .step-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
-    }
-   
-    .step-image {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-      margin-bottom: -21px;
-    }
+  .step-card {
+    background-color: #883DCF;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 246px;
+    height: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    // margin-bottom: 20px;
+    font-family: "Urbanist", sans-serif;
+  }
   
-    .how-num {
-      font-size: 29px;
-        font-weight: bold;
-        color: #000;
-        margin-bottom: 5px;
-        font-family: "Urbanist", sans-serif;
-        /* text-align: center; */
-        margin-left: 39px;
-    }
-   
-    .sub-title {
-      font-size: 16px;
-        font-weight: bold;
-        color: #333;
-        margin-bottom: 15px;
-        font-family: "Urbanist", sans-serif;
-        margin-left: 39px;
-    }
-    
-    
-    .dec {
-      font-size: 14px;
-        color: #666;
-        line-height: 1.5;
-        font-family: "Urbanist", sans-serif;
-        margin-left: 39px;
-        margin-top: -7px;
-    }
-}
+  .step-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .step-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: -21px;
+  }
+  
+  .how-num {
+    font-size: 29px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+    font-family: "Urbanist", sans-serif;
+    text-align: center; /* Align the number in the center */
+  }
+  
+  .sub-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+    font-family: "Urbanist", sans-serif;
+    text-align: center; /* Align the subtitle in the center */
+  }
+  
+  .dec {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    font-family: "Urbanist", sans-serif;
+    text-align: center; /* Align the description in the center */
+    margin-top: -7px;
+  }
+}  
