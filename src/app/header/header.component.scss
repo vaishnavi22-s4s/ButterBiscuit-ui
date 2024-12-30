@@ -115,7 +115,16 @@
 }
 
 
-@media only screen and (min-width:600px) and (max-width:1200px){
+@media only screen and (min-width:990px) and (max-width:1200px){
+  .top-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    background-color: white;
+    box-shadow: 1px 1px 5px 0px rgba(136, 61, 207, 0.3);
+}
   .burger-menu {
     display: none; 
   }
@@ -225,7 +234,7 @@
     text-decoration: none;
     color: #883DCF;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 22px;
     margin-top: 10px;
     font-family: 'Urbanist', sans-serif;
   
@@ -255,8 +264,102 @@
     justify-content: end;
   }
 }
+@media only screen and (min-width:599px) and (max-width:991px){
+  .top-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    background-color: white;
+    box-shadow: 1px 1px 5px 0px rgba(136, 61, 207, 0.3);
+}
+  .top-bar {
+    display: none; 
+  }
+  .main-header {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+  }
+  .ddview{
+    display: none;
+  }
+  .nums{
+    text-decoration: none;
+    color:white; 
+  
+  }
+  .main-header .logo img {
+    height: 50px;
+  }
+
+  .main-header .burger-menu {
+    font-size: 24px;
+    cursor: pointer;
+    color: #883DCF;
+    margin-left: auto;
+    align-items: end;
+    justify-content: end;
+   
+;
+  }
+
+
+  .offcanvas-menu {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100%;
+    background-color: #883DCF;
+    color: #fff;
+    z-index: 1002;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: right 0.3s ease;
+  }
+
+  .offcanvas-menu.active {
+    right: 0;
+  }
+
+  .offcanvas-menu .close-btn {
+    font-size: 24px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: white;
+    align-self: flex-end;
+  }
+
+  .offcanvas-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .offcanvas-menu ul li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+}
 
 @media only screen and (max-width: 600px) {
+  .top-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    background-color: white;
+    box-shadow: 1px 1px 5px 0px rgba(136, 61, 207, 0.3);
+}
   .top-bar {
     display: none; 
   }
