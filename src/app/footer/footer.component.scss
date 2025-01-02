@@ -1,4 +1,9 @@
 @media only screen and (min-width:1200px) {
+    .ft-para{
+        width: 350px;
+        font-size: 18px;
+    }
+   
     .footer{
     margin-top: 30px;
     background-color: #eee0fa;
@@ -44,11 +49,12 @@
     color:#666; 
 }
 .gtinto p{
-    font-size: 17px;
+    font-size: 18px;
 }
 .arrow p a{
     text-decoration: none;
     color:#666 ;
+    font-size: 18px;
 }
 .arrow p a:hover{
     color:#883DCF ;
@@ -95,10 +101,10 @@ button.ft-in:hover {
     
   }
   .social-logo img {
-    height: 100%;
+    height: 80%;
     object-fit: contain;
     transition: transform 0.3s ease;
-    margin-right: 10px;
+    margin-left: 10px;
     border-radius: 7px;
   }
   .social-logo img:hover  {

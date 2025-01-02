@@ -1,9 +1,7 @@
-
 @media only screen and (min-width:1200px) {
   .services-container{
     margin-top:30px
   }
-
 .icon-container {
   display: flex;
   justify-content: center;
@@ -22,24 +20,18 @@
   margin-left: 18px;
   margin-bottom: 0px;
 }
-
-
 .icon-circle {
   width: 66%;
   height: 66%;
   object-fit: cover;
   transition: opacity 0.3s ease, transform 0.3s ease;
 }
-
-
 .icon-container.hovered {
   background-color: white;
   transform: rotate(360deg); 
   border: 3px solid #883DCF; 
   margin-left: 38px;
 }
-
-
 .service-card {
   text-align: center;
   background-color: white; 
@@ -55,15 +47,11 @@
   position: relative;
   margin-top: -35px;
 }
-
-
 .service-card.hovered {
   transform: translateY(-8px);
   background-color: #883DCF; 
   border-radius: 30px;
 }
-
-
 .service-card.hovered .why-title{
   color: white;
   font-size: 24px;
@@ -75,8 +63,6 @@
   font-size: 19px;
   font-family: 'Urbanist', sans-serif;
 }
-
-
 .why-title {
   font-size: 24px;
   font-weight: bold;
@@ -84,8 +70,6 @@
   margin-top: 34px;
   font-family: 'Urbanist', sans-serif;
 }
-
-
 .why-subtitle {
   font-size: 19px;
   color: rgba(0, 0, 0, 0.523); 
@@ -113,8 +97,6 @@
   margin-left: 53px;
   margin-bottom: 0px;
 }
-
-
 .icon-container.hovered {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
   transform: translateY(-10px); 
@@ -132,8 +114,6 @@
   margin-top:40px;
 
 }
-
-
 .service-card.hovered .icon-container::after {
   content: '';
   position: absolute;
@@ -142,7 +122,6 @@
   transform: translate(-50%, -50%) scale(1.1);
   width: 100px;
   height: 100px;
-  // background-image: url('../../../public/icon1.gif');
   background-size: cover;
   border-radius: 50%;
   transition: opacity 0.3s ease, transform 0.3s ease; 
@@ -153,8 +132,6 @@
   .services-container{
     margin-top:30px
   }
-  
-
   .icon-container {
     display: flex;
     justify-content: center;
@@ -173,24 +150,18 @@
     margin-left: 18px;
     margin-bottom: 0px;
   }
-  
-  /* Default icon circle style */
   .icon-circle {
     width: 66%;
     height: 66%;
     object-fit: cover;
     transition: opacity 0.3s ease, transform 0.3s ease;
   }
-  
-  /* Hovered state for icon container */
   .icon-container.hovered {
     background-color: white;
     transform: rotate(360deg); 
     border: 3px solid #883DCF; 
     margin-left: 38px;
   }
-  
-  /* Service card styles */
   .service-card {
     text-align: center;
     background-color: white; 
@@ -206,15 +177,11 @@
     position: relative;
     margin-top: -35px;
   }
-  
-  /* Hover effect for service card */
   .service-card.hovered {
     transform: translateY(-8px);
     background-color:#883DCF; 
     border-radius: 30px;
   }
-  
-  /* Hover effect for the title and subtitle */
   .service-card.hovered .why-title{
     color: white;
     font-size: 24px;
@@ -225,8 +192,6 @@
     font-size: 17px;
     font-family: 'Urbanist', sans-serif;
   }
-  
-  /* Service title styling */
   .why-title {
     font-size: 24px;
     font-weight: bold;
@@ -234,16 +199,12 @@
     margin-top: 18px;
     font-family: 'Urbanist', sans-serif;
   }
-  
-  /* Service subtitle styling */
   .why-subtitle {
     font-size: 17px;
     color: rgba(0, 0, 0, 0.519); 
     transition: color 0.3s ease;
     font-family: 'Urbanist', sans-serif;
   }
-  
-  /* Styling when icon is hovered */
   .service-card.hovered .icon-container,
   .service-card.hovered .icon-circle {
     display: flex;
@@ -263,13 +224,10 @@
     margin-left: 53px;
     margin-bottom: 0px;
   }
-  
-
   .icon-container.hovered {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
     transform: translateY(-10px); 
   }
-  
   .icon-container:hover .icon-circle {
     transform: scale(1.2) translateY(-10px);
   }
@@ -281,8 +239,6 @@
     margin-top:40px;
   
   }
-  
-  
   .service-card.hovered .icon-container::after {
     content: '';
     position: absolute;
@@ -297,14 +253,10 @@
     transition: opacity 0.3s ease, transform 0.3s ease; 
   }
 }
-
-
 @media only screen and (min-width: 599px) and (max-width: 768px){
   .services-container{
     margin-top:20px
   }
-  
-
   .icon-container {
     display: flex;
     justify-content: center;
@@ -323,24 +275,18 @@
     margin-left: 18px;
     margin-bottom: 0px;
   }
-  
-  /* Default icon circle style */
   .icon-circle {
     width: 66%;
     height: 66%;
     object-fit: cover;
     transition: opacity 0.3s ease, transform 0.3s ease;
   }
-  
-  /* Hovered state for icon container */
   .icon-container.hovered {
     background-color: white;
     transform: rotate(360deg); 
     border: 3px solid #883DCF; 
     margin-left: 38px;
   }
-  
-  /* Service card styles */
   .service-card {
     text-align: center;
     background-color: white; 
@@ -356,15 +302,11 @@
     position: relative;
     margin-top: -35px;
   }
-  
-  /* Hover effect for service card */
   .service-card.hovered {
     transform: translateY(-8px);
     background-color:#883DCF; 
     border-radius: 30px;
   }
-  
-  /* Hover effect for the title and subtitle */
   .service-card.hovered .why-title{
     color: white;
     font-size: 24px;
@@ -375,8 +317,6 @@
     font-size: 17px;
     font-family: 'Urbanist', sans-serif;
   }
-  
-  /* Service title styling */
   .why-title {
     font-size: 24px;
     font-weight: bold;
@@ -384,16 +324,12 @@
     margin-top: 18px;
     font-family: 'Urbanist', sans-serif;
   }
-  
-  /* Service subtitle styling */
   .why-subtitle {
     font-size: 17px;
     color: rgba(0, 0, 0, 0.519); 
     transition: color 0.3s ease;
     font-family: 'Urbanist', sans-serif;
   }
-  
-  /* Styling when icon is hovered */
   .service-card.hovered .icon-container,
   .service-card.hovered .icon-circle {
     display: flex;
@@ -413,13 +349,10 @@
     margin-left: 53px;
     margin-bottom: 0px;
   }
-  
-
   .icon-container.hovered {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
     transform: translateY(-10px); 
   }
-  
   .icon-container:hover .icon-circle {
     transform: scale(1.2) translateY(-10px);
   }
@@ -429,10 +362,7 @@
     color:#883DCF; 
     text-align: center;
     margin-top:40px;
-  
   }
-  
-  
   .service-card.hovered .icon-container::after {
     content: '';
     position: absolute;
@@ -441,19 +371,13 @@
     transform: translate(-50%, -50%) scale(1.1);
     width: 100px;
     height: 100px;
-    // background-image: url('../../../public/icon1.gif');
     background-size: cover;
     border-radius: 50%;
     transition: opacity 0.3s ease, transform 0.3s ease; 
   }
-
 }
 
-
-
-
 @media only screen and (max-width: 600px) {
-
   .icon-container {
     display: flex;
     justify-content: center;
@@ -472,7 +396,6 @@
     margin-left: 18px;
     margin-bottom: 0px;
   }
-
   .icon-circle {
     width: 66%;
     height: 66%;
@@ -550,10 +473,7 @@
     font-family: 'Urbanist', sans-serif;
     margin-left: 53px;
     margin-bottom: 0px;
-  }
-
-
-  
+  } 
   .icon-container.hovered {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
     transform: translateY(-10px); 

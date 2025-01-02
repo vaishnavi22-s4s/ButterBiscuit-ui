@@ -3,6 +3,17 @@
 
 .testimonial{
     margin-top: 100px;
+    // background-image: url(../../../public/Group\ 243.png),url(../../../public/Ellipse\ 14\ \(2\).png),
+    // url(../../../public/Ellipse\ 21.png),url(../../../public/Ellipse\ 21.png),url(../../../public/Ellipse\ 21.png),url(../../../public/Ellipse\ 21.png),
+    // url(../../../public/Ellipse\ 21.png),url(../../../public/Ellipse\ 31.png),url(../../../public/Ellipse\ 31.png),url(../../../public/Ellipse\ 31.png),
+    // url(../../../public/Ellipse\ 31.png),url(../../../public/arrow2.png);
+    background-image: url(../../../public/arrow1.png),url(../../../public/testicon.png),
+    url(../../../public/testicon.png),url(../../../public/testicon.png),url(../../../public/testicon.png),url(../../../public/testicon.png),
+    url(../../../public/testicon.png),url(../../../public/testicon.png),url(../../../public/testicon.png),url(../../../public/testicon.png),
+    url(../../../public/testicon.png),url(../../../public/arrow2.png),url(../../../public/arrow3.png),url(../../../public/arrow4.png),;
+    background-position:79% 25%, 90% 99%, 10% 17%, 37% 20%, 93%, 73%, 33% 100%, 76% 82%, 15% 86%, 21%, 4%, 20% 5%,84% 71%,35%;
+    background-repeat: no-repeat;
+    object-fit: contain;
 }
 
 
