@@ -53,8 +53,8 @@
   color: #fff;
   font-size: 17px;
   font-family: 'Urbanist', sans-serif;
-  display: flex; /* Ensure anchor tag behaves like a flex container */
-  align-items: center; /* Vertically align the icon and text */
+  display: flex; 
+  align-items: center; 
 }
 
 .menu-links-group a i {
@@ -74,7 +74,8 @@
 
 .main-header .logo img {
     height: 65px;
-    // margin-left: 85px;
+
+    object-fit: contain;
 }
 
 
@@ -216,6 +217,8 @@
               height: 46px;
         width: 86px;
         margin-top: 8px;
+        
+    object-fit: contain;
   }
   
   
@@ -293,6 +296,8 @@
   }
   .main-header .logo img {
     height: 50px;
+    
+    object-fit: contain;
   }
 
   .main-header .burger-menu {
