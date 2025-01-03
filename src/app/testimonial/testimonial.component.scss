@@ -2,18 +2,12 @@
 @media only screen and (min-width:1200px) {
 
 .testimonial{
-    // margin-top: 100px;
-    // background-image: url(../../../public/Group\ 243.png),url(../../../public/Ellipse\ 14\ \(2\).png),
-    // url(../../../public/Ellipse\ 21.png),url(../../../public/Ellipse\ 21.png),url(../../../public/Ellipse\ 21.png),url(../../../public/Ellipse\ 21.png),
-    // url(../../../public/Ellipse\ 21.png),url(../../../public/Ellipse\ 31.png),url(../../../public/Ellipse\ 31.png),url(../../../public/Ellipse\ 31.png),
-    // url(../../../public/Ellipse\ 31.png),url(../../../public/arrow2.png);
-    background-image: url(../../../public/arrow1.png),url(../../../public/testicon.png),
-    url(../../../public/testicon.png),url(../../../public/testicon.png),url(../../../public/testicon.png),url(../../../public/testicon.png),
-    url(../../../public/testicon.png),url(../../../public/testicon.png),url(../../../public/testicon.png),url(../../../public/testicon.png),
-    url(../../../public/testicon.png),url(../../../public/arrow2.png),url(../../../public/arrow3.png),url(../../../public/arrow4.png),url(../../../public/testicon.png),;
-    background-position:73% 7%, 90% 99%, 10% 17%, 37% 20%, 93%, 73%, 33% 100%, 76% 82%, 15% 86%, 21%, 4%, 20% 5%,84% 71%,35%,85% 15%;
-    background-repeat: no-repeat;
-    object-fit: contain;
+  background-image: url(../../../public/testibgimg.png);
+  background-repeat: no-repeat;
+
+  background-position: center;
+  padding-bottom: 30px;
+
 }
 
 
@@ -32,7 +26,7 @@
     font-size:50px;
     color: #883DCF; 
     text-align: center;
-    margin-top: 20px;
+    padding-top: 55px;
 }
 
 .testimonial-img{
@@ -106,9 +100,11 @@
 
 
     .testimonial{
-        margin-top: 100px;
-    }
-    
+        background-image: url(../../../public/testibgimg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-bottom: 30px;
+      }
     
     .testimonial-container{
         width: 500px;
@@ -125,7 +121,7 @@
         font-size:50px;
         color: #883DCF; 
         text-align: center;
-        margin-top: 20px;
+        padding-top: 20px;
     }
     
     .testimonial-img{
@@ -197,8 +193,9 @@
 @media only screen and (max-width: 600px) {
 
     .testimonial {
-        margin-top: 50px; 
+        padding-top: 25px; 
         text-align: center;
+       
     }
 
     .testimonial-container {
@@ -217,7 +214,7 @@
         font-size: 30px; 
         color: #883DCF;
         text-align: center;
-        margin-top: 20px;
+        padding-top: 20px;
     }
 
     .testimonial-img {
