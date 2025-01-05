@@ -1,6 +1,11 @@
 @media only screen and (min-width:1200px) {
+    .ft-para{
+        width: 350px;
+        font-size: 18px;
+    }
+   
     .footer{
-    margin-top: 30px;
+    
     background-color: #eee0fa;
     padding-bottom: 40px;
     
@@ -9,20 +14,24 @@
     font-family: "Urbanist", sans-serif;
 }
 .bblogo{
-    width: 110px;
-    height: 70px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    width: 170px;
+    height: 130px;
+    object-fit: contain;
+    margin-bottom: 20px;
 }
 .ft-logo{
     width: 25px;
     height: 25px;
     margin-right: 10px;
+
   
 
 }
 
 .gtinto{
     display: flex;
+    text-decoration: none;
    
 }
 .ft-head{
@@ -32,8 +41,30 @@
     margin-top: 60px;
  
 }
+.nums{
+    text-decoration: none;
+    color:#666; 
+
+}
+.mail-footer{
+    text-decoration: none;
+    color:#666; 
+}
 .gtinto p{
-    font-size: 17px;
+    font-size: 18px;
+}
+.arrow p a{
+    text-decoration: none;
+    color:#666 ;
+    font-size: 18px;
+}
+.arrow p a:hover{
+    color:#883DCF ;
+
+}
+.arrow p i:hover{
+    color:#883DCF ;
+
 }
 
 
@@ -83,15 +114,14 @@ button.ft-in:hover {
     margin-left: 10px;
     
   }
-  .social-icon img {
-    width: 100%;
-    height: 100%;
+  .social-logo img {
+    height: 80%;
     object-fit: contain;
     transition: transform 0.3s ease;
-    margin-right: 10px;
+    margin-left: 10px;
     border-radius: 7px;
   }
-  .social-icon img:hover  {
+  .social-logo img:hover  {
     transform: scale(1.1);
   }
 
@@ -101,7 +131,10 @@ button.ft-in:hover {
     display: inline-block;
    
 }
-
+.mail-footer{
+    text-decoration: none;
+    color:#666; 
+}
 .ft-head::after {
     content: '';
     position: absolute;
@@ -127,19 +160,32 @@ button.ft-in:hover {
 @media only screen and (min-width:600px) and (max-width:1200px){
 
         .footer {
-            margin-top: 30px;
+         
             background-color: #eee0fa;
             padding-bottom: 40px;
             color: #666;
             line-height: 1.5;
             font-family: "Urbanist", sans-serif;
+           
         }
-    
-        .bblogo {
-            width: 110px;
-            height: 70px;
-            margin-bottom: 30px;
+
+
+        .nums{
+            text-decoration: none;
+            color:#666; 
+        
         }
+    .mail-footer{
+        text-decoration: none;
+        color:#666;
+    }
+    .bblogo{
+        margin-top: 50px;
+        width: 170px;
+        height: 130px;
+        object-fit: contain;
+        margin-bottom: 20px;
+    }
     
         .ft-logo {
             width: 25px;
@@ -162,6 +208,18 @@ button.ft-in:hover {
     
         .gtinto p {
             font-size: 17px;
+        }
+        .arrow p a{
+            text-decoration: none;
+            color:#666 ;
+        }
+        .arrow p a:hover{
+            color:#883DCF ;
+        
+        }
+        .arrow p i:hover{
+            color:#883DCF ;
+        
         }
     
         .ft-input {
@@ -198,8 +256,8 @@ button.ft-in:hover {
             margin-left: 10px;
         }
     
-        .social-icon img {
-            width: 100%;
+        .social-logo img{
+           
             height: 100%;
             object-fit: contain;
             transition: transform 0.3s ease;
@@ -207,7 +265,7 @@ button.ft-in:hover {
             border-radius: 7px;
         }
     
-        .social-icon img:hover {
+        .social-logo img:hover {
             transform: scale(1.1);
         }
     
@@ -230,131 +288,6 @@ button.ft-in:hover {
     }
     
 
-
-
-    // @media only screen and (max-width: 600px) {
-
-    //     .footer {
-    //         margin-top: 30px;
-    //         background-color: #eee0fa;
-    //         padding-bottom: 40px;
-    //         color: #666;
-    //         line-height: 1.5;
-    //         font-family: "Urbanist", sans-serif;
-    //         text-align: center; /* Center the text in the footer */
-    //     }
-    
-    //     .bblogo {
-    //         width: 90px;
-    //         height: 63px;
-    //         margin-bottom: 15px;
-    //         margin-left: auto;
-    //         margin-right: auto; /* Center the logo horizontally */
-    //     }
-    
-    //     .ft-logo {
-    //         width: 21px;
-    //         height: 21px;
-    //     }
-    
-    //     .gtinto {
-    //         display: flex;
-    //         flex-direction: column; /* Stack the content vertically on smaller screens */
-    //         align-items: center; /* Center the content */
-    //         text-align: center; /* Center the text inside the container */
-    //     }
-    
-    //     .arr {
-    //         text-align: center; /* Center the text inside the 'arr' container */
-    //     }
-    
-    //     .ft-head {
-    //         font-size: 21px;
-    //         font-weight: 500;
-    //         color: #883DCF;
-    //         margin-top: 16px;
-    //         position: relative;
-    //         display: inline-block;
-    //         margin-left: auto;
-    //         margin-right: auto; /* Center the heading */
-    //         text-align: center; /* Center the text */
-    //     }
-    
-    //     .gtinto p {
-    //         font-size: 14px;
-    //         margin-left: 0; /* Remove excessive margin for text */
-    //         margin-top: 5px;
-    //         text-align: center; /* Center the text */
-    //     }
-    
-    //     .ft-input {
-    //         display: flex;
-    //         align-items: center;
-    //         justify-content: center; /* Center the input fields */
-    //     }
-    
-    //     .ft-in {
-    //         border-radius: 2px;
-    //         padding: 9px 6px;
-    //         border: 1px solid #883DCF;
-    //         margin: 5px;
-    //     }
-    
-    //     input.ft-in {
-    //         flex-grow: 1;
-    //     }
-    
-    //     button.ft-in {
-    //         background-color: #883DCF;
-    //         color: white;
-    //         cursor: pointer;
-    //     }
-    
-    //     button.ft-in:hover {
-    //         background-color: #883DCF;
-    //     }
-    
-    //     .social-icon {
-    //         display: flex;
-    //         justify-content: center; /* Center the social icons */
-    //         margin-top: 10px;
-    //     }
-    
-    //     .social-icon img {
-    //         width: 9%; /* Adjust the icon size for mobile */
-    //         object-fit: contain;
-    //         margin: 0 10px; /* Space between icons */
-    //     }
-    
-    //     .social-icon img:hover {
-    //         transform: scale(1.1);
-    //     }
-    
-    //     .ft-head::after {
-    //         content: '';
-    //         position: absolute;
-    //         left: 0;
-    //         bottom: 0;
-    //         width: 100%;
-    //         height: 3px;
-    //         background: #883DCF;
-    //         transform: scaleX(0);
-    //         transform-origin: left;
-    //         transition: transform 0.3s ease-in-out;
-    //     }
-    
-    //     .ft-head:hover::after {
-    //         transform: scaleX(1);
-    //     }
-    // }
-    // }
-
-
-
-
-
-
-
     @media only screen and (max-width: 600px) {
         .footer {
             margin-top: 30px;
@@ -369,7 +302,16 @@ button.ft-in:hover {
             padding-top: 30px;
 
         }
-  
+        .nums{
+            text-decoration: none;
+            color:#666; 
+        
+        }
+       .mail-footer{
+            text-decoration: none;
+            color:#666; 
+        }
+
         .bblogo {
             width: 110px;
             height: 70px;
@@ -398,11 +340,20 @@ button.ft-in:hover {
         .gtinto p {
             font-size: 17px;
         }
-    
-        .ft-input {
-            display: flex;
-            align-items: center;
+        .arrow p a{
+            text-decoration: none;
+            color:#666 ;
         }
+        .arrow p a:hover{
+            color:#883DCF ;
+        
+        }
+        .arrow p i:hover{
+            color:#883DCF ;
+        
+        }
+    
+       
     
         .ft-in {
             border-radius: 8px;
@@ -428,14 +379,14 @@ button.ft-in:hover {
     
         .social-icon {
             display: flex;
-            width: 35px;
-            height: 35px;
+            width: 28px;
+            height: 28px;
             text-align: center;
             margin-left: 10px;
+            object-fit: contain;
         }
     
-        .social-icon img {
-            width: 100%;
+        .social-logo img {
             height: 100%;
             object-fit: contain;
             transition: transform 0.3s ease;
@@ -443,7 +394,7 @@ button.ft-in:hover {
             border-radius: 7px;
         }
     
-        .social-icon img:hover {
+        .social-logo img:hover {
             transform: scale(1.1);
         }
     

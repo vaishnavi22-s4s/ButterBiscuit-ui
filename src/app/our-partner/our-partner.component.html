@@ -1,7 +1,28 @@
+<<<<<<< HEAD
 
 
 <div class="our-partner">
     <p class="our-partner-heading">Our Partners</p>
+=======
+<div class="our-partner ddview">
+    <p class="our-partner-heading">
+        Our Partner
+    </p>
+    <div class="our-partner-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-3" *ngFor="let image of ourPartner">
+                <img  src="{{image.imageUrl}}" alt="BonBon" class="partner-imgs" >
+            </div>
+            
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="our-partner mbview">
+    <p class="our-partner-heading">Our Partner</p>
+>>>>>>> 580e8f3488923092e193493aff7a5c4fecb69bb0
     <div class="our-partner-container">
       <div class="arrow left-arrow" (click)="prevSlide()">&#8249;</div>
       <div class="slider">
