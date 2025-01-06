@@ -1,50 +1,40 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import Splide from '@splidejs/splide';
+import '@splidejs/splide/css';
 
 @Component({
   selector: 'app-testimonial',
   standalone: false,
   
   templateUrl: './testimonial.component.html',
-  styleUrl: './testimonial.component.scss'
+  styleUrl: './testimonial.component.scss',
+
 })
-export class TestimonialComponent {
-  testimonial=[
-    {
-      imageUrl:"testimonial-img.jpg",
-      name:"Sarah. M, Tea Shop Owner",
-      content1:"Butter Biscuit transformed our tea shop!",
-      content2:'"Our customers love the easy QR code access, and we’ve received so many compliments on the visuals. Updating our menu is now a breeze!"',
-    },
-    {
-      imageUrl:"testimonial-img.jpg",
-      name:"Sarah. M, Tea Shop Owner",
-      content1:"Butter Biscuit transformed our tea shop!",
-      content2:'"Our customers love the easy QR code access, and we’ve received so many compliments on the visuals. Updating our menu is now a breeze!"',
-    },
-    {
-      imageUrl:"testimonial-img.jpg",
-      name:"Sarah. M, Tea Shop Owner",
-      content1:"Butter Biscuit transformed our tea shop!",
-      content2:'"Our customers love the easy QR code access, and we’ve received so many compliments on the visuals. Updating our menu is now a breeze!"',
-    },
-    {
-      imageUrl:"testimonial-img.jpg",
-      name:"Sarah. M, Tea Shop Owner",
-      content1:"Butter Biscuit transformed our tea shop!",
-      content2:'"Our customers love the easy QR code access, and we’ve received so many compliments on the visuals. Updating our menu is now a breeze!"',
-    },
-    {
-      imageUrl:"testimonial-img.jpg",
-      name:"Sarah. M, Tea Shop Owner",
-      content1:"Butter Biscuit transformed our tea shop!",
-      content2:'"Our customers love the easy QR code access, and we’ve received so many compliments on the visuals. Updating our menu is now a breeze!"',
-    },   
-    {
-      imageUrl:"testimonial-img.jpg",
-      name:"Sarah. M, Tea Shop Owner",
-      content1:"Butter Biscuit transformed our tea shop!",
-      content2:'"Our customers love the easy QR code access, and we’ve received so many compliments on the visuals. Updating our menu is now a breeze!"',
-    }
-  ]
+export class TestimonialComponent implements OnInit {
+
+
+
+  ngOnInit(): void {
+    new Splide('#splide', {
+      type: 'loop',      // Enables looping of slides
+      perPage: 3,        // Show 3 slides per row
+      perMove: 1,        // Move 1 slide at a time
+      autoplay: true,    // Enable auto-play
+      interval: 3000,    // 3 seconds between slides
+      pauseOnHover: true, // Pause autoplay on hover
+      pagination: true,  // Enable pagination indicators
+      arrows: true,      // Enable navigation arrows
+      gap: '4rem',    
+      focus: 'center',   // Space between slides
+     
+    }).mount();
+
+    
+  }
+ 
+
+
+  
 
 }
+
