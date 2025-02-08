@@ -83,6 +83,18 @@
 input.ft-in {
     flex-grow: 1;  
 }
+.arrow p a{
+    color: #263a4f;
+    text-decoration: none;
+   
+    
+}
+.arrow p :hover {
+    color: #883DCF; 
+    transform: scale(1.1);
+    
+  }
+  
 
 button.ft-in {
     background-color: #883DCF; 
