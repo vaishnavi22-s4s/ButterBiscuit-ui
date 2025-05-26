@@ -1,3 +1,4 @@
+
 @media only screen and (min-width:1200px) {
     .ft-para{
         width: 350px;
@@ -139,6 +140,14 @@ button.ft-in:hover {
 .ft-head:hover::after {
     transform: scaleX(1); /* Full width on hover */
 }
+.copyright{
+    text-decoration: none;
+    color: #883DCF;
+  
+}
+    .text-center{
+                margin-top: 25px;
+        }
 }
 
 
@@ -273,6 +282,14 @@ button.ft-in:hover {
         .ft-head:hover::after {
             transform: scaleX(1);
         }
+        .copyright{
+    text-decoration: none;
+    color: #883DCF;
+
+}
+    .text-center{
+                margin-top: 25px;
+        }
     }
     
 
@@ -402,6 +419,13 @@ button.ft-in:hover {
         .ft-head:hover::after {
             transform: scaleX(1);
         }
-        
+        .copyright{
+    text-decoration: none;
+    color: #883DCF;
+
+}
+        .text-center{
+                margin-top: 25px;
+        }
     }
     
